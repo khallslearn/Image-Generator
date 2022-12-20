@@ -75,8 +75,8 @@ body {
 .showcase form input,
 form select {
   font-size: 20px;
-  width: 500px;
-  max-width: 500px;
+  width: 100%;
+  max-width: 100%;
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -117,4 +117,12 @@ img {
 }
 .text-center {
   text-align: center;
+}
+
+#image{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top:200px;
+  left: 20px;
 }
